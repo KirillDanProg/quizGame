@@ -108,7 +108,7 @@ function showCorrectAnswer() {
   box.innerHTML += `
   <div class="correct-answer">The answer is: ${correctAnswer}</div>
   `
-  setTimeout(() => getQuiz(), 5000)
+  setTimeout(() => getQuiz(), 2500)
 }
 
 function scaleStart() {
